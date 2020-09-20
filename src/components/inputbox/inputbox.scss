@@ -1,0 +1,11 @@
+input[type=text]{
+    background-color: rgb(96, 95, 95);
+    outline: none;
+    color: rgb(206, 205, 205);;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    &::placeholder{
+        color: rgb(206, 205, 205);
+    }
+}
